@@ -17,7 +17,7 @@ export default async function AllBlogs({ page, setpage }) {
   }
   return (
     <>
-      {blogs.length === 0 && (
+      {blogs?.length === 0 && (
         <div className="w-full h-90 grid place-items-center bg-white mt-5">
           No Blogs Found
         </div>
@@ -25,17 +25,17 @@ export default async function AllBlogs({ page, setpage }) {
       <BlogsHeader />
       <section className="mt-[141px]  grid grid-cols-2  md:grid-cols-4 gap-5  ">
         {blogs &&
-          blogs.map((i, index) => {
+          blogs?.map((i, index) => {
             return (
               <BlogCard
                 key={index}
-                fullTitle={i.title}
-                title={i.title.substring(0, 32) + "..."}
-                category={i.category}
-                description={i.description.substring(0, 60) + "..."}
-                image={i.image}
-                id={i._id}
-                views={i.views}
+                fullTitle={i?.title}
+                title={i?.title.substring(0, 32) + "..."}
+                category={i?.category}
+                description={i?.description.substring(0, 60) + "..."}
+                image={i?.image}
+                id={i?._id}
+                views={i?.views}
               />
             );
           })}

@@ -9,7 +9,6 @@ const Blogs = () => {
   return (
     <div className="h-full ">
       <AllBlogs page={page} setpage={setpage} />
-    
     </div>
   );
 };
