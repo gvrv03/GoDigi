@@ -1,15 +1,12 @@
 import React from "react";
-import Link from "next/link";
 import { getSingleURL } from "../../../../../allLinks";
 import NotFound from "../not-found";
 import SingleHeader from "@/Components/SingleHeader";
 import "suneditor/dist/css/suneditor.min.css";
 
-
-
-const page = async ({ searchParams }) => {
+const BlogDetails = async ({ searchParams }) => {
   const res = await fetch(getSingleURL + searchParams.ID);
-  const data = await res.json();
+  const data = await res?.json();
   const { title, category, description, image, artical, author, views } = data
     ? data
     : {};
@@ -60,4 +57,4 @@ const page = async ({ searchParams }) => {
   );
 };
 
-export default page;
+export default BlogDetails;

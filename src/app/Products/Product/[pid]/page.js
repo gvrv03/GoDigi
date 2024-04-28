@@ -3,11 +3,10 @@ import ProductMinDetail from "@/Components/Product/ProductMinDetail";
 import SingleHeader from "@/Components/SingleHeader";
 import React from "react";
 import { getSingleProductURL } from "../../../../../allLinks";
-import baseUrl from "../../../../../baseUrl";
 
 const ProductDetail = async ({ searchParams }) => {
   const res = await fetch(getSingleProductURL + searchParams.product);
-  const data = await res.json();
+  const data = await res?.json();
   const {
     title,
     artical,
