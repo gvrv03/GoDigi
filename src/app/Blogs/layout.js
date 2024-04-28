@@ -1,8 +1,8 @@
 import React from "react";
 
 export const metadata = {
-  title: "Blogs || Gaurav Narnaware",
-  description: "Blogs by Gaurav Narnaware and his Team member",
+  title: "Blogs || GoDigi",
+  description: "Blogs by GoDigi and his Team member",
   keywords: [
     "Products",
     "DigitalProducts",
@@ -17,8 +17,8 @@ export const metadata = {
 
   twitter: {
     card: "summary_large_image",
-    title: "Blogs || Gaurav Narnaware",
-    description: "Blogs by Gaurav Narnaware and his Team member",
+    title: "Blogs || GoDigi",
+    description: "Blogs by GoDigi and his Team member",
     keywords: [
       "Products",
       "DigitalProducts",
@@ -32,8 +32,8 @@ export const metadata = {
     url: "/Blogs",
   },
   openGraph: {
-    title: "Blogs || Gaurav Narnaware",
-    description: "Blogs by Gaurav Narnaware and his Team member",
+    title: "Blogs || GoDigi",
+    description: "Blogs by GoDigi and his Team member",
     keywords: [
       "Products",
       "DigitalProducts",

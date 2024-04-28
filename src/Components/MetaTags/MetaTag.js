@@ -15,8 +15,8 @@ const MetaTag = () => {
       />
 
       {/* <!-- Primary Meta Tags --> */}
-      <title>Gaurav Narnaware || Personal Website</title>
-      <meta name="title" content="Gaurav Narnaware || Personal Website" />
+      <title>GoDigi || Personal Website</title>
+      <meta name="title" content="GoDigi || Personal Website" />
       <meta
         name="description"
         content="With Meta Tags you can edit and experiment with your content then preview how your webpage will look on Google, Facebook, Twitter and more!"
@@ -27,7 +27,7 @@ const MetaTag = () => {
       <meta property="og:url" content="https://metatags.io/" />
       <meta
         property="og:title"
-        content="Gaurav Narnaware || Personal Website"
+        content="GoDigi || Personal Website"
       />
       <meta
         property="og:description"
@@ -43,7 +43,7 @@ const MetaTag = () => {
       <meta property="twitter:url" content="https://metatags.io/" />
       <meta
         property="twitter:title"
-        content="Gaurav Narnaware || Personal Website"
+        content="GoDigi || Personal Website"
       />
       <meta
         property="twitter:description"

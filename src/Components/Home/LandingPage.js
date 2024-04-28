@@ -42,7 +42,7 @@ const LandingPage = () => {
               <Image
                 width={200}
                 height={200}
-                alt="Gaurav Narnaware"
+                alt="GoDigi"
                 src="/gaurav.svg"
                 priority={1}
                 className="  float  rounded-full   w-full h-full "

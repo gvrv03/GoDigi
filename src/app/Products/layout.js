@@ -3,7 +3,7 @@ import React from "react";
 
 
 export const metadata = {
-  title: "Products || Gaurav Narnaware",
+  title: "Products || GoDigi",
   description: "Premium Digital products that helps to complete your need ",
   keywords: [
     "Products",
@@ -18,7 +18,7 @@ export const metadata = {
   url: "/Products",
   twitter: {
     card: "summary_large_image",
-    title: "Products || Gaurav Narnaware",
+    title: "Products || GoDigi",
     description: "Premium Digital products that helps to complete your need ",
     keywords: [
       "Products",
@@ -33,7 +33,7 @@ export const metadata = {
     url: "/Products",
   },
   openGraph: {
-    title: "Products || Gaurav Narnaware",
+    title: "Products || GoDigi",
     description: "Premium Digital products that helps to complete your need ",
     keywords: [
       "Products",

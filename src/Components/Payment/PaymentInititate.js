@@ -87,7 +87,7 @@ const PaymentInititate = ({ amount, produDID, title, productDetailID }) => {
           await postPayment(response);
         },
         // prefill: {
-        //   name: "Gaurav Narnaware", // Customer name
+        //   name: "GoDigi", // Customer name
         //   email: "gauravnarnaware3112003@gmail.com", // Customer email
         //   //   contact: "7796305801", // Customer contact number
         // },

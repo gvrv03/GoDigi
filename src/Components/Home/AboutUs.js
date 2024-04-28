@@ -26,7 +26,7 @@ const AboutUs = () => {
             </p>
             <p className="  text-base md:text-lg   text-justify">
               Hi, I am{" "}
-              <span className="font-semibold pColor">Gaurav Narnaware</span>, an
+              <span className="font-semibold pColor">GoDigi</span>, an
               Indian web developer working out of Maharashtra. I have a strong
               desire to make the technical and aesthetic components of digital
               goods come to life. When I am creating, learning, exploring, and

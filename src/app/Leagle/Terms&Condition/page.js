@@ -45,7 +45,7 @@ const page = () => {
             <p>
               <strong>Company</strong> (referred to as either &#34;the Company
               &#34;, &#34;We &#34;, &#34;Us &#34; or &#34;Our &#34; in this
-              Agreement) refers to Gaurav Narnaware || Personal Website.
+              Agreement) refers to GoDigi || Personal Website.
             </p>
           </li>
           <li>
@@ -85,7 +85,7 @@ const page = () => {
           </li>
           <li>
             <p>
-              <strong>Website</strong> refers to Gaurav Narnaware || Personal
+              <strong>Website</strong> refers to GoDigi || Personal
               Website, accessible from{" "}
               <a
                 href="http://gauravnarnaware.com/"

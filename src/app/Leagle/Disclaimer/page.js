@@ -26,7 +26,7 @@ const Disclaimer = () => {
           <li>
             <strong>Company</strong> (referred to as either &#34;the
             Company&#34;&#44; &#34;We&#34;, &#34;Us&#34; or &#34;Our&#34; in
-            this Disclaimer) refers to Gaurav Narnaware || Personal Website.
+            this Disclaimer) refers to GoDigi || Personal Website.
           </li>
           <li>
             <strong>Service</strong> refers to the Website.
@@ -37,7 +37,7 @@ const Disclaimer = () => {
             individual is accessing or using the Service, as applicable.
           </li>
           <li>
-            <strong>Website</strong> refers to Gaurav Narnaware || Personal
+            <strong>Website</strong> refers to GoDigi || Personal
             Website, accessible from
             <a
               href="http://gauravnarnaware.com/"
