@@ -5,7 +5,7 @@ import SingleHeader from "@/Components/SingleHeader";
 import "suneditor/dist/css/suneditor.min.css";
 
 const BlogDetails = async ({ searchParams }) => {
-  const res = await fetch(getSingleURL + searchParams.ID);
+  const res = await fetch(getSingleURL + searchParams?.ID);
   const data = await res?.json();
   const { title, category, description, image, artical, author, views } = data
     ? data

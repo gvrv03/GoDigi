@@ -5,7 +5,7 @@ import React from "react";
 import { getSingleProductURL } from "../../../../../allLinks";
 
 const ProductDetail = async ({ searchParams }) => {
-  const res = await fetch(getSingleProductURL + searchParams.product);
+  const res = await fetch(getSingleProductURL + searchParams?.product);
   const data = await res?.json();
   const {
     title,
